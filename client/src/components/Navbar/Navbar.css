@@ -1,0 +1,122 @@
+.navbar_container {
+  width: 100%;
+  margin: auto;
+  background: #323232;
+  position: relative;
+  z-index: 7;
+}
+
+.navbar_container nav {
+  width: 1500px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.navbar_container nav .left a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 44px;
+  background: linear-gradient(121.35deg, #4e51d8 10.89%, #7375d8 90.74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.navbar_container nav .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar_container nav .right .language {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 22px rgba(143, 143, 143, 0.25);
+  box-shadow: 0px 0px 22px rgba(143, 143, 143, 0.25);
+  border-radius: 3px;
+  overflow: hidden;
+  width: 93px;
+  height: 49px;
+  margin-right: 50px;
+}
+
+.navbar_container nav .right .language span {
+  cursor: pointer;
+  height: 100%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.navbar_container nav .right .language span.en {
+  background: linear-gradient(121.35deg, #4e51d8 10.89%, #7375d8 90.74%);
+  color: #323232;
+}
+
+.navbar_container nav .right li {
+  margin-right: 50px;
+}
+
+.navbar_container nav .right li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #b7b7b7;
+}
+
+.navbar_container nav .right .register {
+  margin-right: 0;
+  background: linear-gradient(121.35deg, #4e51d8 10.89%, #7375d8 90.74%);
+  border-radius: 3px;
+  width: 323px;
+  height: 49px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.navbar_container nav .right .register a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
