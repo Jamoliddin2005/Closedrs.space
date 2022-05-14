@@ -7,9 +7,12 @@ import Register from "./pages/Register/Register";
 import Login from "./pages/Login/Login";
 import Account from "./pages/Account/Account";
 import { useState } from "react";
+import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [uploadImg, setUploadImg] = useState(false);
+
 
   const ClickHandlerImgUploading = (e) => {
     if (uploadImg) {
@@ -22,6 +25,7 @@ function App() {
   };
   return (
     <div className="site_Div">
+      <ToastContainer />
       <Navbar
         uploadImg={uploadImg}
         ClickHandlerImgUploading={ClickHandlerImgUploading}
